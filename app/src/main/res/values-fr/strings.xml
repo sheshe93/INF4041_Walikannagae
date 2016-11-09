@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Programation Mobile</string>
+    <string name="bonjour">Bienvenue à la liste des stars  </string>
+    <string name="bouton">liste de contact</string>
+    <string name="msg">Telechargement Réussi</string>
+
+</resources>
