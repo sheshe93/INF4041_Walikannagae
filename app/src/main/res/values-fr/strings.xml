@@ -2,6 +2,9 @@
     <string name="app_name">Programation Mobile</string>
     <string name="bonjour">Bienvenue à la liste des stars  </string>
     <string name="bouton">liste de contact</string>
-    <string name="msg">Telechargement Réussi</string>
-
+    <string name="internet">Recherche internet</string>
+    <string name="retour">Retour</string>
+    <string name="navig">Navigateur</string>
+    <string name="phrasenav">Entrez la recherche à effectuer dans le champ ci-dessous puis cliquez sur le bouton Google</string>
+    <string name="contact">Contact</string>
 </resources>

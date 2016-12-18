@@ -2,5 +2,9 @@
     <string name="app_name">Mobile Programation </string>
     <string name="bonjour">Welcome to famous people list</string>
     <string name="bouton">contact list</string>
-    <string name="msgTelechargement">Download succesful</string>
+    <string name="internet">Research internet</string>
+    <string name="retour">Return</string>
+    <string name="navig">Surfing</string>
+    <string name="phrasenav">Enter your research and click on the icon</string>
+    <string name="contact">Contact</string>
 </resources>
