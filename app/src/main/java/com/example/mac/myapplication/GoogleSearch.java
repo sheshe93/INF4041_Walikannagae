@@ -50,7 +50,7 @@ public class GoogleSearch extends AppCompatActivity implements View.OnClickListe
             case R.id.action_retour:
                 retour();
                 return true;
-            case R.id.action_navigateur:
+            case R.id.action_contact:
                contact();
                 return true;
 
