@@ -39,6 +39,17 @@
 
     />
 
+    <Button
+        android:id="@+id/internet"
+        android:onClick="internetButton"
+        android:layout_below="@id/button"
+        android:layout_alignParentLeft="true"
+        android:text="@string/internet"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+
+        />
 
 
 </RelativeLayout>

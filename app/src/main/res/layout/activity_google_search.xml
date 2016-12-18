@@ -6,21 +6,9 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:padding="10px">
+        android:padding="10dp">
 
-        <TextView
-            android:text="Entrez la recherche à effectuer dans le champ ci-dessous puis cliquez sur le bouton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10px"
-            android:gravity="center_horizontal" />
 
-        <EditText
-            android:id="@+id/editText"
-            android:layout_marginBottom="5px"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-         />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -30,5 +18,21 @@
         android:layout_gravity="center">
 
     </ImageButton>
+
+        <TextView
+            android:text="@string/phrasenav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_marginBottom="5dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+         />
+
+
 
 </LinearLayout>
