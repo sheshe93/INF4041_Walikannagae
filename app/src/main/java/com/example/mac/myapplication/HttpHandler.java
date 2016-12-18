@@ -17,6 +17,8 @@ import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
 
+
+//telecharge le fichier
 public class HttpHandler {
 
     private static final String TAG = HttpHandler.class.getSimpleName();
@@ -44,7 +46,7 @@ public class HttpHandler {
         }
         return response;
     }
-
+//Transforme le fichier en String
     private String convertStreamToString(InputStream is) {
         BufferedReader reader = new BufferedReader(new InputStreamReader(is));
         StringBuilder sb = new StringBuilder();

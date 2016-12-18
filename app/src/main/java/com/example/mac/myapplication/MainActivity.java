@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
+//bouton liste contact
     public void buttonClick(View V) {
      //   Toast.makeText(getApplicationContext(), getString(R.string.msg), Toast.LENGTH_LONG).show();
         Intent intent= new Intent(MainActivity.this,contact.class);
@@ -35,6 +37,12 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+//bouton recher internet
+    public void internetButton(View V) {
+         Intent intent= new Intent(MainActivity.this,GoogleSearch.class);
+            startActivity(intent);
+
+    }
 
 
 
